@@ -70,22 +70,27 @@ the two spin sectors have different kinetic matrices.
 
 ---
 
-## 3. DQMC Engine Optimization and Observables for the Two-Dimensional Hubbard Model
+## 3. Numerically Exact DQMC Study of Spin-Triplet Pairing in a Two-Dimensional Repulsive Hubbard Model
 
 **Status:** Published in Physical Review A
 
-**Computational focus:** Refactor and verify a DQMC workflow for a two-dimensional
-Hubbard model with next-nearest-neighbor and third-nearest-neighbor hopping.
+**Computational focus:** Use determinant quantum Monte Carlo to study
+unconventional pairing tendencies in a spin-balanced two-dimensional repulsive
+Hubbard model with next-nearest-neighbor and third-nearest-neighbor hopping,
+with the filling tuned close to a type-II Van Hove singularity.
 
 **Resume-aligned contributions:**
 
-- Reconstructed the DQMC computation workflow for the extended two-dimensional
-  Hubbard model.
-- Verified implementation correctness through benchmark cases and consistency
-  checks across physical observables.
-- Derived and implemented key observables, including vertex corrections to the
-  pairing susceptibility.
-- Supported numerical analysis of spin-triplet superconducting instability.
+- Performed a numerically exact DQMC study of possible pairing channels with
+  different symmetries under repulsive interactions.
+- Computed pairing susceptibilities and vertex contributions to identify the
+  ordering tendency of the spin-triplet $p$-wave channel.
+- Found increasingly pronounced spin-triplet $p$-wave pairing signatures as
+  temperature decreases and interaction strength grows from weak to
+  intermediate coupling.
+- Analyzed spin-spin correlations near the type-II Van Hove singularity and
+  connected the dominant ferromagnetic correlations with the spin-triplet
+  pairing instability.
 
 **Publication:** Physical Review A, DOI:
 [10.1103/9552-rz3h](https://doi.org/10.1103/9552-rz3h)
