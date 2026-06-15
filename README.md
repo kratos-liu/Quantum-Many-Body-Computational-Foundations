@@ -47,21 +47,24 @@ a quantum critical point.
 
 **Status:** Under Review at Physical Review B
 
-**Computational focus:** Analyze how spatially anisotropic band structures can
-worsen the Monte Carlo sign problem, starting from the structure of fermion
-propagator matrices.
+**Computational focus:** Analyze the determinant sign structure of the
+spin-dependent fermion-Ising model for $\alpha < 1$, where the standard
+half-filled $\alpha=1$ particle-hole positivity proof no longer applies because
+the two spin sectors have different kinetic matrices.
 
 **Resume-aligned contributions:**
 
 - Analyzed algebraic conditions under which specific symmetry configurations
   lead to non-negative fermionic weights.
-- Combined a partial particle-hole transformation with spatial mirror symmetry
-  to refactor the fermion propagator matrix.
-- Proved that, under mirror-symmetric configurations, the spin-up and spin-down
-  determinants satisfy a similarity-transform relation.
-- Used the derivation to explain a major mechanism behind low-temperature sign
-  deterioration and to provide theoretical guidance for extending the
-  accessible sampling-temperature window.
+- Used a partial particle-hole transformation together with the spatial
+  $x \leftrightarrow y$ mirror operation to relate the down-spin determinant to
+  the up-spin determinant evaluated on the mirror-transformed Ising
+  configuration.
+- Showed that mirror-symmetric configurations, including checkerboard AFM
+  backgrounds, yield a nonnegative square-like fermionic weight.
+- Connected this sufficient condition with average-sign diagnostics to
+  rationalize the favorable sign behavior observed in the sampled parameter
+  window.
 
 <img width="500" alt="Fig1_schematic" src="https://github.com/user-attachments/assets/ed8e44bc-3066-4343-ba47-91f95ee6d478" />
 
