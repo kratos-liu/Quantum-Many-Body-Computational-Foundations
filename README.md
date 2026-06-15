@@ -23,17 +23,17 @@ or private implementation files.
 
 ---
 
-## 1. Large-Scale DQMC Engine and Multi-Probe Measurements for a Fermion-Ising Coupled Model
+## 1. Model-Specific DQMC Implementation and Multi-Probe Measurements for a Fermion-Ising Coupled Model
 
 **Status:** Under Review at Physical Review B
 
-**Computational focus:** Build a dedicated DQMC simulation engine for a
+**Computational focus:** Implement a model-specific DQMC simulation workflow for a
 fermion-Ising coupled model and scan the finite-temperature phase diagram near
 a quantum critical point.
 
 **Resume-aligned contributions:**
 
-- Independently implemented the model-specific DQMC simulation engine.
+- Independently implemented the model-specific DQMC simulation code.
 - Produced core observables for phase-boundary identification.
 - Built an analysis pipeline from raw DQMC measurements to SAC spectra,
   imaginary-time Green's-function crossing checks, and phase-boundary analysis.
